@@ -1,0 +1,13 @@
+{
+  "name": "vehicle-info-api",
+  "version": "1.0.0",
+  "description": "Vehicle RC Information API",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "python api/index.py",
+    "dev": "vercel dev",
+    "deploy": "vercel --prod"
+  }
+}
